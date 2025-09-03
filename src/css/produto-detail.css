@@ -1,8 +1,10 @@
+
+/* CSS Banner produto */
 #produto-holder{
     border:1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(6,0.5fr);
     margin: 40px auto;
     width: 80%;
     grid-template-areas:
@@ -11,7 +13,8 @@
     "carousel cores"
     "carousel tamanho"
     "carousel medidas"
-    "carousel comprar";
+    ". comprar";
+    padding: 20px;
 }
 
 #myCarousel{
@@ -35,4 +38,12 @@
 }
 #comprar-produto{
     grid-area:comprar;
+}
+
+
+
+/* CSS Tabela */
+
+.table{
+    width: 50vw;
 }
