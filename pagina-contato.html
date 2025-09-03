@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contato</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container my-4">
+        <h1 class="mb-3">Contato</h1>
+        <p class="text-muted mb-4">Fale com a nossa equipe. Responderemos o quanto antes em horário comercial.</p>
+        <div class="row">
+            <div class="col-12 col-md-7">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body">
+                        <h2 class="h5 mb-3">Envie sua mensagem</h2>
+
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input id="nome" name="nome" type="text" class="form-control" placeholder="Seu nome completo">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input id="email" name="email" type="text" class="form-control" placeholder="email@exemplo.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="categoria">Categoria</label>
+                                <select id="categoria" name="categoria" class="form-control">
+                                    <option value="">Selecione</option>
+                                    <option>Dúvida</option>
+                                    <option>Sugestão</option>
+                                    <option>Parceria</option>
+                                    <option>Outros</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="assunto">Assunto</label>
+                                <input id="assunto" name="assunto" type="text" class="form-control" placeholder="Assunto da mensagem">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" class="form-control" rows="6" placeholder="Escreva sua mensagem..."></textarea>
+                            </div>
+
+                            <div class="d-flex align-items-center">
+                                <button type="submit" class="btn btn-primary mr-2">Enviar</button>
+                                <button type="reset" class="btn btn-secondary">Limpar</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-5">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h2 class="h5 mb-3">Informações</h2>
+                        <p class="text-muted mb-3">Nosso time está pronto para atender você com soluções sustentáveis, produtos exclusivos e suporte dedicado. Entre em contato e faça parte dessa experiência!</p>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><strong>Endereço:</strong> Av. Paulista, 1106 — Bela Vista, São Paulo/SP</li>
+                            <li class="mb-2"><strong>E-mail:</strong> ecotrend@fiap.com.br</li>
+                            <li class="mb-2"><strong>Telefone:</strong> (11) 90000-0000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
