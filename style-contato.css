@@ -1,0 +1,16 @@
+body {
+    background: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: .5rem;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-control {
+    border-radius: .4rem;
+}
