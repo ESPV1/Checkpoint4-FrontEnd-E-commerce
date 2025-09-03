@@ -1,0 +1,38 @@
+#produto-holder{
+    border:1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6,1fr);
+    margin: 40px auto;
+    width: 80%;
+    grid-template-areas:
+    "carousel info"
+    "carousel preco"
+    "carousel cores"
+    "carousel tamanho"
+    "carousel medidas"
+    "carousel comprar";
+}
+
+#myCarousel{
+    grid-area: carousel;
+}
+
+#info-produto{
+    grid-area: info;
+}
+#preco-produto{
+    grid-area: preco;
+}
+#cores-produto{
+    grid-area:cores;
+}
+#tamanho-produto{
+    grid-area:tamanho;
+}
+#medidas-produto{
+    grid-area:medidas;
+}
+#comprar-produto{
+    grid-area:comprar;
+}
