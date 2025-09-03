@@ -4,7 +4,6 @@ body{
 }
 /* CSS Banner produto */
 #produto-holder{
-    border:1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 40px auto;
@@ -24,15 +23,16 @@ body{
 #produto-holder span{
     font-size: 10px;
 }
-#produto-holder h6,p{
+#produto-holder h5,p{
     margin-bottom: 0px;
-    font-weight: bold;
 }
 
 /* Elementos dentro Banenr */
 #myCarousel{
+    width: 80%;
     grid-area: carousel;
-    background-color: red;
+    margin: 0 auto;
+    place-content: center;
 }
 
 #info-produto{
@@ -75,9 +75,14 @@ body{
     font-size: 10px;
 }
 
-
 /* CSS Tabela */
 
+
+#sobre-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .table{
-    width: 50vw;
+    max-width: 50vw;
 }
