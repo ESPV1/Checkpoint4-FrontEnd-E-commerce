@@ -33,6 +33,14 @@ aside {
   margin: 0.4rem 0;
 }
 
+.form-check input {
+  box-shadow: none;
+}
+
+.form-check input:hover{
+  cursor: pointer;
+}
+
 .form-check label {
   cursor: pointer;
   transition: color 0.2s ease-in-out;
@@ -41,6 +49,17 @@ aside {
 .form-check input:checked + label {
   color: #198754;
   font-weight: bold;
+}
+
+.form-check input:checked {
+  background-color: var(--bs-success);
+  border-color: var(--bs-success);
+  box-shadow: none;
+}
+
+.form-check input:focus {
+  box-shadow: none;
+  border-color: var(--bs-success);
 }
 
 .product-card {

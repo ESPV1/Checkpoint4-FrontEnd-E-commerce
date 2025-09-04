@@ -16,11 +16,6 @@ body {
   box-shadow: none;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-}
-
 .social-icon svg {
   fill: #007bff; /* Exemplo de cor: azul do Bootstrap */
 }
