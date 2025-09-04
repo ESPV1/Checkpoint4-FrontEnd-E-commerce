@@ -1,0 +1,109 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h5,
+h6 {
+  color: #2f4f2f;
+  font-weight: bold;
+}
+
+aside {
+  position: sticky;
+  top: 80px;
+}
+
+.filter-box {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-box h6 {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #198754;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+
+.form-check {
+  margin: 0.4rem 0;
+}
+
+.form-check label {
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.form-check input:checked + label {
+  color: #198754;
+  font-weight: bold;
+}
+
+.product-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 23rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn-success {
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  aside {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  .filter-box {
+    padding: 1rem;
+    margin-bottom: 5rem;
+  }
+  .filter-box h6 {
+    font-size: 0.9rem;
+  }
+  .product-card {
+    margin-bottom: 1rem;
+  }
+  .card-img-top {
+    height: 220px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .filter-box {
+    padding: 1.2rem;
+  }
+  .product-card {
+    transform: none;
+  }
+  .card-img-top {
+    height: 240px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .filter-box {
+    padding: 2rem;
+  }
+  .product-card img {
+    height: 320px;
+    object-fit: cover;
+  }
+  .card-img-top {
+    height: 320px;
+  }
+}
