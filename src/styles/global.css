@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+body {
+  font-family: Geist, sans-serif;
+}
+
+#logo-header {
+  margin-right: 2%;
+}
+
+#logo-header-text {
+  font-weight: 600;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.social-icon svg {
+  fill: #007bff; /* Exemplo de cor: azul do Bootstrap */
+}
