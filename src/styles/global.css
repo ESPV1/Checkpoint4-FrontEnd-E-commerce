@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--bs-success);
+  border-radius: 6px;
+  border: 2px solid #f8f9fa;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #20a869;
+}
+
 body {
   font-family: Geist, sans-serif;
+  background-color: #f8f9fa;
 }
 
 #logo-header {

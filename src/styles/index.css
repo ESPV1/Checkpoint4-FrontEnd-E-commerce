@@ -5,3 +5,13 @@
   border-radius: 5px;
   padding: 1rem;
 }
+
+.carousel-custom-height .carousel-item img {
+  height: 92vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.nav-set {
+  height: 8vh;
+}
