@@ -8,7 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
   <link rel="icon" href="/src/assets/img/favicon.png" sizes="16x16" type="image/png" />
-  <link rel="stylesheet" href="src/styles/global.css" />
+  <link rel="stylesheet" href="./src/styles/index.css">
+  <link rel="stylesheet" href="./src/styles/global.css" />
 </head>
 
 <body>
@@ -27,7 +28,7 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="/src/assets/img/logo.png" alt="Logo" width="30" height="24" id="logo-header"
+        <img src="./src/assets/img/logo.png" alt="Logo" width="30" height="24" id="logo-header"
           class="d-inline-block align-text-top" />
         <span class="text-success" id="logo-header-text">EcoTrend</span>
       </a>
@@ -50,6 +51,125 @@
       </div>
     </div>
   </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="./src/pages/produto-detail.html">
+          <img src="./src/assets/img/camiseta.jpg" class="d-block w-100" alt="Promoção 1" />
+          <div class="carousel-caption d-none d-md-block bg-text">
+            <h5>Promoção Imperdível!</h5>
+            <p>Camisetas de algodão orgânico com 20% de desconto. Clique e aproveite!</p>
+          </div>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="./src/pages/produto-detail.html">
+          <img src="./src/assets/img/camisetas.jpg" class="d-block w-100" alt="Novidades da Semana" />
+          <div class="carousel-caption d-none d-md-block bg-text">
+            <h5>Novidades da Semana</h5>
+            <p>Nossa nova coleção de moda sustentável acabou de chegar. Venha conferir!</p>
+          </div>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="./src/pages/produto-detail.html">
+          <img src="./src/assets/img/roupas.jpg" class="d-block w-100" alt="Destaque Eco-Friendly" />
+          <div class="carousel-caption d-none d-md-block bg-text">
+            <h5>Destaque Eco-Friendly</h5>
+            <p>Vista-se com propósito. Peças incríveis feitas com material reciclado.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container my-5">
+    <h2 class="text-center mb-4 text-success">Roupas</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./src/assets/img/camiseta-organica.jpg" class="card-img-top" alt="Camisa Orgânica">
+          <div class="card-body">
+            <h5 class="card-title">Camisa de Algodão Orgânico</h5>
+            <p class="card-text">Confortável e sustentável, feita com algodão 100% orgânico.</p>
+            <a href="#" class="btn btn-success">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./src/assets/img/jeans.avif" class="card-img-top" alt="Calça Sustentável">
+          <div class="card-body">
+            <h5 class="card-title">Calça Jeans Ecológica</h5>
+            <p class="card-text">Produzida com técnicas de economia de água e materiais reciclados.</p>
+            <a href="#" class="btn btn-success">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./src/assets/img/jaqueta.jpg" class="card-img-top" alt="Jaqueta Reciclada">
+          <div class="card-body">
+            <h5 class="card-title">Jaqueta de Material Reciclado</h5>
+            <p class="card-text">Estilosa e amiga do ambiente, feita de poliéster reciclado.</p>
+            <a href="#" class="btn btn-success">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <h2 class="text-center mb-4 text-success">Beleza</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./src/assets/img/sabonetes-biodegradaveis.jpg" class="card-img-top" alt="Sabonete Artesanal">
+          <div class="card-body">
+            <h5 class="card-title">Sabonete Artesanal Vegan</h5>
+            <p class="card-text">Feito com ingredientes naturais, sem testes em animais.</p>
+            <a href="#" class="btn btn-success">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="src/assets/img/shampoo-solido.webp" class="card-img-top" alt="Shampoo Sólido">
+          <div class="card-body">
+            <h5 class="card-title">Shampoo Sólido</h5>
+            <p class="card-text">Livre de plásticos, uma opção zero-waste para seus cabelos.</p>
+            <a href="#" class="btn btn-success">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./src/assets/img/creme.jpg" class="card-img-top" alt="Creme Natural">
+          <div class="card-body">
+            <h5 class="card-title">Creme Hidratante Natural</h5>
+            <p class="card-text">Embalagem biodegradável, com extratos de plantas orgânicas.</p>
+            <a href="#" class="btn btn-success">Ver Detalhes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container-fluid footer">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
