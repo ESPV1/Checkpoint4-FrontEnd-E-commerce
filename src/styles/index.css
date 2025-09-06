@@ -1,0 +1,17 @@
+.bg-text{
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.carousel-custom-height .carousel-item img {
+  height: 92vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.nav-set {
+  height: 8vh;
+}

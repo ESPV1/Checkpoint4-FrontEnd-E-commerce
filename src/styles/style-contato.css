@@ -1,0 +1,27 @@
+.card {
+    border: none;
+    border-radius: .5rem;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-control,
+.form-select {
+    border-radius: .4rem;
+}
+
+.form-control:focus, .form-select:focus{
+    box-shadow: none;
+    border-color: var(--bs-success);
+}
+
+.form-select option:hover {
+  background-color: var(--bs-success);
+  color: white; /* Optional: Change text color for better contrast */
+}
+
+.form-label {
+    font-weight: 600;
+}

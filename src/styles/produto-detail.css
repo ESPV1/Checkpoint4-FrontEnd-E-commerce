@@ -1,0 +1,95 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#f8f9fa;
+}
+/* CSS Banner produto */
+#produto-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+    max-width: 50vw;
+    grid-template-areas:
+    "carousel info"
+    "carousel preco"
+    "carousel cores"
+    "carousel tamanho"
+    ". comprar";
+    padding: 20px;
+}
+/* Regras gerais para Texto */
+#produto-holder > *{
+    padding: 5px;
+}
+#produto-holder span{
+    font-size: 10px;
+}
+#produto-holder h5,p{
+    margin-bottom: 0px;
+}
+
+/* Elementos dentro Banenr */
+#myCarousel{
+    width: 80%;
+    grid-area: carousel;
+    margin: 0 auto;
+    place-content: center;
+}
+
+#info-produto{
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+}
+#preco-produto{
+    grid-area: preco;
+    display: flex;
+    flex-direction: column;
+}
+#preco-produto p{
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bold;
+}
+#cores-produto{
+    grid-area:cores;
+}
+#cores-produto p{
+    margin-bottom: 2%;
+}
+#tamanho-produto{
+    grid-area:tamanho;
+    margin-bottom: 2%;
+}
+#tamanho-produto p{
+    margin-bottom: 2%;
+}
+
+#comprar-produto{
+    grid-area:comprar;
+}
+
+.btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+#comprar-produto .btn{
+    width:90%;
+    height: auto;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* CSS Tabela */
+
+
+#sobre-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table{
+    max-width: 50vw;
+}
