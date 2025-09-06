@@ -12,9 +12,13 @@ Desenvolver uma interface responsiva de um e-commerce especializado em produtos 
 
 ## 📃Paginas Desenvolvidas
 ### Home
+![Foto pagina Home](./src/assets/img/home.png)
 ### Categorias
+![Foto pagina Categorias](./src/assets/img/produtos.png)
 ### Detalhes do Produto
+![Foto pagina Produto](./src/assets/img/produto_detail.png)
 ### Contato
+![Foto pagina Contato](./src/assets/img/contato.png)
 
 ## 👀 Como acessar o Projeto
 Para que o projeto seja acessado, use o link para o Github Pages(aqui) ou clone o repositorio.
